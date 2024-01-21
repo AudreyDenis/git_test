@@ -55,3 +55,18 @@ class Personnage:
     def mourir(self):
         self.sante = 0 
         print(f" Player {self.name} est mort !!!!!! ")
+        
+  
+player1 = Personnage(
+    name="gandalf",
+    force=100,
+    sante=1000,
+    defense=200
+)
+
+player2 = Personnage(
+    name="Loup",
+    force=200,
+    sante=1500,
+    defense=0
+)
